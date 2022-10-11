@@ -1,9 +1,25 @@
-function App() {
+function Profile() {
   return (
-    <div className="container">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <img
+      className="rounded-md"
+      src="https://via.placeholder.com/100"
+      alt="Katherine Johnson"
+    />
+  );
+}
+
+function Gallery() {
+  return (
+    <div className="flex flex-wrap gap-[10px]">
+      <Profile />
+      <Profile />
+      <Profile />
     </div>
   );
+}
+
+function App() {
+  return <Gallery />;
 }
 
 export default App;
