@@ -1,25 +1,11 @@
-function Profile() {
-  return (
-    <img
-      className="rounded-md"
-      src="https://via.placeholder.com/100"
-      alt="Katherine Johnson"
-    />
-  );
-}
-
-function Gallery() {
-  return (
-    <div className="flex flex-wrap gap-[10px]">
-      <Profile />
-      <Profile />
-      <Profile />
-    </div>
-  );
-}
+import Gallery from "./Gallery";
 
 function App() {
-  return <Gallery />;
+  return (
+    <div className="container">
+      <Gallery />
+    </div>
+  );
 }
 
 export default App;
