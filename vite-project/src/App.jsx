@@ -5,6 +5,7 @@ function App() {
     <div className="container">
       <Gallery />
       <Profile />
+      test
     </div>
   );
 }
