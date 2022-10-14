@@ -1,11 +1,10 @@
 // import Gallery, { Profile } from "./Gallery";
-import TodoList from "./TodoList";
+import Avatar from "./Avatar";
+import "./App.css";
 function App() {
   return (
     <div className="container">
-      {/* <Gallery />
-      <Profile /> */}
-      <TodoList />
+      <Avatar />
     </div>
   );
 }
