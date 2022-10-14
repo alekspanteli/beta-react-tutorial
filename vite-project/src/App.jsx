@@ -1,11 +1,11 @@
-import Gallery, { Profile } from "./Gallery";
-
+// import Gallery, { Profile } from "./Gallery";
+import TodoList from "./TodoList";
 function App() {
   return (
     <div className="container">
-      <Gallery />
-      <Profile />
-      test
+      {/* <Gallery />
+      <Profile /> */}
+      <TodoList />
     </div>
   );
 }
