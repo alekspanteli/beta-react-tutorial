@@ -4,7 +4,10 @@ import "./App.css";
 function App() {
   return (
     <div className="container">
-      <ProfileProps />
+      <ProfileProps
+        person={{ name: "Alex Panteli", imageId: "100" }}
+        size={100}
+      />
     </div>
   );
 }

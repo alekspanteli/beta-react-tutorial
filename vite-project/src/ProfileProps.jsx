@@ -1,16 +1,19 @@
+// import AvatarProps from "./AvatarProps";
+
+// export default function ProfileProps({ person, size }) {
+//   return (
+//     <>
+//       <AvatarProps person={person} size={size} />
+//     </>
+//   );
+// }
+
 import AvatarProps from "./AvatarProps";
 
-export default function ProfileProps() {
+export default function ProfileProps(props) {
   return (
     <>
-      <AvatarProps
-        person={{ name: "Lin Lanying", imageId: "100" }}
-        size={100}
-      />
-      <AvatarProps
-        person={{ name: "Alex Panteli", imageId: "200" }}
-        size={200}
-      />
+      <AvatarProps {...props} />
     </>
   );
 }
