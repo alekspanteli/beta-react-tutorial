@@ -12,8 +12,8 @@ import AvatarProps from "./AvatarProps";
 
 export default function ProfileProps(props) {
   return (
-    <>
+    <article className="card">
       <AvatarProps {...props} />
-    </>
+    </article>
   );
 }
